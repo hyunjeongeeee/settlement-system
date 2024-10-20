@@ -1,13 +1,13 @@
-package com.example.settlement.domain.settlement.dto;
+package com.example.settlement.settlement.entity;
 
-import com.example.settlement.domain.user.dto.User;
-import com.example.settlement.domain.vedio.dto.Video;
+import com.example.settlement.user.entity.User;
+import com.example.settlement.video.entity.Video;
 import jakarta.persistence.*;
 
 import java.util.Date;
 
 @Entity
-@Table(name = "SETTLEMENT")
+@Table(name = "SETTLEMENTS")
 public class Settlement {
 
     @Id

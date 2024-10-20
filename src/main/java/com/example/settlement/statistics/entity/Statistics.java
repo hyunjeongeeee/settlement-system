@@ -1,6 +1,6 @@
-package com.example.settlement.domain.statistics.dto;
+package com.example.settlement.statistics.entity;
 
-import com.example.settlement.domain.vedio.dto.Video;
+import com.example.settlement.video.entity.Video;
 import jakarta.persistence.*;
 
 import java.security.Timestamp;

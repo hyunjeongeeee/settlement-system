@@ -1,6 +1,6 @@
-package com.example.settlement.domain.vedio.dto;
+package com.example.settlement.video.entity;
 
-import com.example.settlement.domain.user.dto.User;
+import com.example.settlement.user.entity.User;
 import jakarta.persistence.*;
 
 
@@ -8,7 +8,7 @@ import java.security.Timestamp;
 
 
 @Entity
-@Table(name = "VIDEO")
+@Table(name = "VIDEOS")
 public class Video {
 
     @Id

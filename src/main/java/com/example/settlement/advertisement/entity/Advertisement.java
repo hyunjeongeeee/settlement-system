@@ -1,10 +1,10 @@
-package com.example.settlement.domain.advertisement.dto;
+package com.example.settlement.advertisement.entity;
 
-import com.example.settlement.domain.vedio.dto.Video;
+import com.example.settlement.video.entity.Video;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "ADVERTISEMENT")
+@Table(name = "ADVERTISEMENTS")
 public class Advertisement {
 
     @Id

@@ -1,14 +1,14 @@
-package com.example.settlement.domain.history.dto;
+package com.example.settlement.history.entity;
 
-import com.example.settlement.domain.user.dto.User;
-import com.example.settlement.domain.vedio.dto.Video;
+import com.example.settlement.user.entity.User;
+import com.example.settlement.video.entity.Video;
 import jakarta.persistence.*;
 
 import java.security.Timestamp;
 import java.util.Date;
 
 @Entity
-@Table(name = "HISTORY")
+@Table(name = "HISTORIES")
 public class History {
 
     @Id
