@@ -2,4 +2,6 @@ server:
   port: 8080
 spring:
   profiles:
-    include: database # 프로젝트를 실행하면 application-database.yaml 을 찾아서 설정정보를 참고
+    include:
+      - database # 프로젝트를 실행하면 application-database.yaml 을 찾아서 설정정보를 참고
+      - secret
